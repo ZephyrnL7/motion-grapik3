@@ -1,0 +1,22 @@
+{
+  "name": "bumi-berhenti-5-detik",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Video animasi 9:16 (Remotion): Jika bumi berhenti berputar 5 detik",
+  "scripts": {
+    "dev": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts Bumi out/bumi-berhenti.mp4",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.495",
+    "@remotion/media": "4.0.495",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.495"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.8.3"
+  }
+}
